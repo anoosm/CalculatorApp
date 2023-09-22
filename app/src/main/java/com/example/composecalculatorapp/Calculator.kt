@@ -36,7 +36,8 @@ fun Calculator(
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .align(Alignment.BottomCenter),
+                .align(Alignment.BottomCenter)
+                .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(buttonSpacing)
         ) {
             Text(
